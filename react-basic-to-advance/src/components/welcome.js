@@ -8,5 +8,5 @@ class Welcome extends Component {
         return <h1>This is class component</h1>;
     }
 }
-
+// Notes : In Class Component props work like this.props.name here we can not defind props like fundctional component.
 export default Welcome;
