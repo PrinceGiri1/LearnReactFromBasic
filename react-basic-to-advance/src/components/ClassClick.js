@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ClassClick extends Component {
     handleEvent(){
         console.log('checked is work')
-        alert("dsafg")
+        alert("Thanks for click me")
     }
     
   render() {
