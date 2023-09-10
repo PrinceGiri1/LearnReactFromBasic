@@ -7,10 +7,14 @@ import Message from './components/Message';
 import Count from './components/Count';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import UserGreating from './components/UserGreating';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
+      <NameList/>
+      <UserGreating/>
       <ClassClick/>
       <FunctionClick/>
       <Greet/>
